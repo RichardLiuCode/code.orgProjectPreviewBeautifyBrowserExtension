@@ -1,3 +1,27 @@
 {
-    "name": "Code.org Project viewer ++"
+    "name": "Code.org Project viewer ++",
+    "description": "This is a extension that make code.org project viewer to be better.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://studio.code.org/projects/applab/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "content.css"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
 }

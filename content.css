@@ -1,0 +1,36 @@
+.WireframeButtons_containerLeft,
+.WireframeButtons_containerRight,
+.wrapper.withWireframeButtons,
+.with_padding.wireframeShare,
+#codeApp {
+    background-color: black;
+}
+
+#footerDiv,
+.small-footer-base {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 444;
+    background-color: #979fa5;
+}
+
+#divApplab {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WireframeButtons_button {
+
+    z-index: 450px;
+
+}
